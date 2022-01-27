@@ -8,7 +8,7 @@
 
 # ✏️ Learn ! 
 
-[spring core concept00](https://github.com/JustDoJeon/Spring-Core-Study/tree/master/TILhttps://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring00.md)
+[spring core concept00](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring00.md)
 
 
 
