@@ -12,6 +12,7 @@
 
 2022-01-27[객체 지향 설계란 무엇인가?](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring01.md)
 
+2022-01-28[스프링 핵심 기능 사용하기 1](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring02.md)
 
 📕 정리 내용은 인프런의 김영한님의 강의를 통해 정리되었습니다. 
 
