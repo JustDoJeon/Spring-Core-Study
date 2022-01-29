@@ -1,6 +1,7 @@
-<h1> Spring Boot - Self Study 
+<h1> Spring Boot - Self Study </h1> 
   <h3>Today I Learned </h3>
-●  배운 내용 정리하고 공부하기 (2022-01-26 시작 )<br>
+
+● 배운 내용 정리하고 공부하기 (2022-01-26 시작 )
 
 ● 정리 내용은 인프런의 김영한님의 강의와 서적, 여러 블로그들을 기반으로 작성되었습니다.
 
@@ -16,7 +17,9 @@
 
 2022-01-28[스프링 핵심 기능 사용하기 2](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring03.md)
 
-2022-01-29[스프링 핵심 기능 사용하기 3](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring03.md)
+2022-01-29[스프링 핵심 기능 사용하기 3](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring04.md)
+
+2022-01-30[스프링 핵심 기능 사용하기 4](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring05.md)
 
 
 📕 정리 내용은 인프런의 김영한님의 강의를 통해 정리되었습니다.
