@@ -29,6 +29,7 @@
 
 2022-02-01[스프링 컨테이너와 스프링 빈 1](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring09.md)
 
+2022-02-02[스프링 컨테이너와 스프링 빈 1](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring10.md)
 
 📕 정리 내용은 인프런의 김영한님의 강의를 통해 정리되었습니다.
 
