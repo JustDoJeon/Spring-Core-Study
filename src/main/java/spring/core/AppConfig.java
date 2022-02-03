@@ -9,7 +9,6 @@ import spring.core.member.MemberService;
 import spring.core.member.MemberServiceImpl;
 import spring.core.member.MemoryMemberRepository;
 import spring.core.order.OrderService;
-import spring.core.order.OrderServiceImpl;
 
 // application 전체를 설정하고 구성하기 위한 클래스 중요!!
 @Configuration
@@ -35,7 +34,8 @@ public class AppConfig {
 
     @Bean
     public OrderService orderService() {
-        return new OrderServiceImpl(memberRepository(), discountPolicy());
+//        return new OrderServiceImpl(memberRepository(), discountPolicy());
+        return null;
     }
 
     //이제 이 부분의 생성객체만 변경하면 다른 db 사용이 가능한 구조로된것

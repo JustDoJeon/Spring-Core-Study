@@ -12,7 +12,7 @@ public class MemberServiceImpl implements MemberService {
     // AppConfig 생성과 함께 -> DIP를 지키게됨 구체적인 내용은 모르고 (Appconfig에서 생성함) 인터페이스만 의존
     private final MemberRepository memberRepository;
 
-    @Autowired // appConfig에서 의존관계 명시한걸 이렇게 표현가능
+    @Autowired
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
