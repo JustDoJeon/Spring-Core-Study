@@ -1,11 +1,13 @@
 package spring.core.order;
 
+import org.springframework.stereotype.Component;
 import spring.core.discount.DiscountPolicy;
 import spring.core.member.Member;
 import spring.core.member.MemberRepository;
 import spring.core.member.MemoryMemberRepository;
 
 //OrderService의 입장에선 할인은 난 모르겠으니 너가 던져주기만해줘 (SRP)
+@Component
 public class OrderServiceImpl implements OrderService {
 
 //    private final MemberRepository memberRepository = new MemoryMemberRepository();
@@ -31,5 +33,9 @@ public class OrderServiceImpl implements OrderService {
         int disCountPrice = discountPolicy.discount(member, itemPrice);
 
         return new Order(memberId, itemName, itemPrice, disCountPrice);
+    }
+
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }

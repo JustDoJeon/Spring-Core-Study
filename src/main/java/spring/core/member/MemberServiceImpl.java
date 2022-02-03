@@ -1,5 +1,9 @@
 package spring.core.member;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
 public class MemberServiceImpl implements MemberService {
 
     // 가입을하고 회원을 찾으려면 멤버리포지토리가 필요함
@@ -8,6 +12,7 @@ public class MemberServiceImpl implements MemberService {
     // AppConfig 생성과 함께 -> DIP를 지키게됨 구체적인 내용은 모르고 (Appconfig에서 생성함) 인터페이스만 의존
     private final MemberRepository memberRepository;
 
+    @Autowired // appConfig에서 의존관계 명시한걸 이렇게 표현가능
     public MemberServiceImpl(MemberRepository memberRepository) {
         this.memberRepository = memberRepository;
     }
@@ -20,5 +25,9 @@ public class MemberServiceImpl implements MemberService {
     @Override
     public Member findMember(Long memberId) {
         return memberRepository.findById(memberId);
+    }
+
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
     }
 }
