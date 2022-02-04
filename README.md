@@ -47,6 +47,8 @@
 
 2022-02-04 [빈 생명주기 콜백 2](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring18.md)
 
+2022-02-04 [빈 스코프 1](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring19.md)
+
 
 
 📕 정리 내용은 인프런의 김영한님의 강의를 통해 정리되었습니다.
