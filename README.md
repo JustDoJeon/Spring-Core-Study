@@ -43,6 +43,12 @@
 
 2022-02-04 [의존 관계 자동 주입 2](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring16.md)
 
+2022-02-04 [빈 생명주기 콜백 1](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring17.md)
+
+2022-02-04 [빈 생명주기 콜백 2](https://github.com/JustDoJeon/Spring-Core-Study/blob/master/TIL/Spring18.md)
+
+
+
 📕 정리 내용은 인프런의 김영한님의 강의를 통해 정리되었습니다.
 
 
